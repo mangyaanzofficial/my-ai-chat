@@ -163,8 +163,7 @@
 
   <!-- Input -->
   <div class="input-container">
-    <input type="text" id="user-input" placeholder="Ketik pertanyaan..." onkeypress="if(event.key==='Enter'){sendMessage()}">
-    <button onclick="sendMessage()">Kirim</button>
+    <input type="text" id="user-input" placeholder="Ketik pertanyaan..." onkeydown="if(event.key==='Enter'){sendMessage()}">Kirim</button>
   </div>
 
   <script>
